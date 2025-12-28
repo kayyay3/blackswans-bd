@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>a small present</title>
+    
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <section id="login-page" class="page active">
+        <div class="login-box">
+            <h1>🔒</h1>
+            <p>Enter Password!</p>
+
+            <input type="text" id="password-input" placeholder="What day is today?"/>
+            <p class="hint">Hint: It's a very special day</p>
+            <button id="login-btn">Go</button>
+            
+            <p id="login-error"></p>
+        </div>
+    </section>
+
+    <button id="music-toggle" class="music-btn">🔊</button>
+    
+    <!-- greet -->
+    <section id="greeting-page" class="page hidden">
+        <div class="greeting-content">
+            <h1 class="fade-text">Happy Birthday,</h1>
+            <h2 class="fade-text delay">my dearest Black Swan!!</h2>
+            <img src="assets/cat-phweet.png" alt="phweeeeeeeeeet!" class="cat-phweet"/> 
+
+            <!-- confetti -->
+            <div class="confetti left"></div>
+            <div class="confetti right"></div>
+        </div>
+    </section>
+
+    <!-- gift -->
+    <section id="gift-page" class="page hidden">
+        <h2 class="swipe-text">Swipe Up!</h2>
+
+        <div class="gift-box" id="giftBox">
+            <img src="assets/lid.png" alt="lid" class="gift-lid"/>
+            <img src="assets/box.png" alt="box" class="gift-body"/>
+
+            <div class="gift-inside" id="giftInside">
+                <img src="assets/present.png" alt="the gift">
+            </div>
+        </div>
+    </section>
+
+    <!-- cake -->
+    <section id="cake-page" class="page hidden">
+        <h2 class="swipe-text">Swipe Down!</h2>
+
+        <div class="cake-area" id="cakeArea">
+            <img src="assets/knife.png" class="knife" id="knife">
+            
+            <img src="assets/cake.png" class="cake-back">
+            <img src="assets/cake-slice.png" class="cake-slice" id="cakeSlice">
+            <img src="assets/envelope.png" class="envelope" id="envelope">
+
+            <h2 class="letter-notice">Oh! you've got a letter!!</h2>
+            <h2 class="tap-env">Tap the envelope!</h2>
+        </div>
+    </section>
+    <section id="letter-page" class="page hidden">
+        <div class="letter-wrapper">
+            <h3>A letter for you 🤍</h3>
+
+            <div class="letter-content">
+                <p>
+                    For my dearest one, <strong>Ahmad Ghaeza Tegar Prakoso.</strong> <br><br>
+                    Happy Birthday!!<br>
+                    Thank you for everything, for being yourself, for your endless love<br>
+                    meeting you was one of the things I've never expected,<br>
+                    but it was one of the happiest moments in my life.<br>
+                    You're a real danger for my heart.<br>
+                    Everything about you was able to make me forgot that words existed<br>
+                    Your face, that could make my heart jump off from my chest<br>
+                    This serene feeling flooding through my chest<br> 
+                    from the presence of your smile<br>
+                    you carved memories that I could never erase from my heart<br>
+                    If I'm allowed to asks for a wish, I want to stay by your side always<br>
+                    no matter what time, no matter what weather, no matter what season<br>
+                    There's never a day I stop loving you.<br>
+                    I hope that the universe would give you the love you deserved,<br>
+                    and all of your wishes would be granted.<br>
+                    Wish you'll have the happiest and amazing birthday, <i>mein schatz</i>!!<br>
+                </p>
+                <p>
+                    <strong>Yours and only,</strong><br>
+                    <i>"White Doe"</i>
+                </p>
+            </div>
+            <p>This is the end for my present,<br> 
+            I hope this could give you a smile and brighten up your special day XD<br>  
+            I love you so much!!</p>          
+            <button value="back" id="back-btn" class="btn-back">go back</button>
+        </div>
+    </section>
+
+    <!-- scripts -->
+    <script src="script.js"></script>
+</body>
+
+<audio id="bgm" loop>
+    <source src="assets/bd-piano.mp3" type="audio/mpeg">
+</audio>
+<audio id="cat-sfx">
+  <source src="assets/trumpet.mp3" type="audio/mpeg">
+</audio>
+<audio id="meow">
+    <source src="assets/meow.mp3" type="audio/mpeg">
+</audio>
+<audio id="crunch">
+    <source src="assets/crunch.mp3" type="audio/mpeg">
+</audio>
+
+</html>

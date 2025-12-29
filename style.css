@@ -1,6 +1,6 @@
 html, body {
-    width: 100%;
-    overflow-x: hidden;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 * {
@@ -359,8 +359,6 @@ body {
     z-index: 3;                
     opacity: 0;
     pointer-events: none;
-    user-select: none;
-    -webkit-user-drag: none;
 
     transition: opacity 0.4s ease, transform 0.5s ease;
 }
@@ -464,7 +462,4 @@ body {
     cursor: pointer;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     z-index: 999;
-
 }
-
-

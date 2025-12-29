@@ -203,7 +203,7 @@ body {
     z-index: 2;
 
     opacity: 0;
-    transform: translateY(120px) scale(0.7);
+    transform: translateY(50px) scale(0.7);
 }
 
 
@@ -463,4 +463,5 @@ body {
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     z-index: 999;
 }
+
 

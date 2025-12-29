@@ -248,6 +248,22 @@ body {
     }
 }
 
+.hint-text {
+    text-align: center;
+    transform: translateY(389px);
+    font-size: 16px;
+    opacity: 0;
+    pointer-events: none;
+
+    transition: opacity 0.7s ease, transform 0.3s ease;
+}
+
+.gift-box.show-cat .hint-text{
+    transform: translateY(390px);
+    opacity: 0.7;
+    transition-delay: 1s;
+}
+
 /*cake*/
 #cake-page {
     position: relative;
@@ -443,3 +459,4 @@ body {
     z-index: 999;
 
 }
+

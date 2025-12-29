@@ -134,7 +134,7 @@ function openGift() {
 
     setTimeout(() => {
       document.getElementById("cake-page").scrollIntoView({behavior: "smooth"});
-      document.getElementById("hint").classList.add("hidden")
+      document.getElementById("hint").classList.add("hidden");
     }, 3000);
 
   }, 800);
@@ -236,6 +236,7 @@ musicBtn.addEventListener("click", () => {
     }
     musicOn = !musicOn;
 });
+
 
 
 
